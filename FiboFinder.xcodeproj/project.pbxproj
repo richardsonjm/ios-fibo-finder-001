@@ -440,11 +440,7 @@
 			baseConfigurationReference = 2A5A7DF16FB5F0DF28020071 /* Pods-FiboFinderTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FiboFinder.app/FiboFinder";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
+				FRAMEWORK_SEARCH_PATHS = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FiboFinder/FiboFinder-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -464,11 +460,7 @@
 			baseConfigurationReference = E887FA2CFADA3A20EF31AD90 /* Pods-FiboFinderTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FiboFinder.app/FiboFinder";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
+				FRAMEWORK_SEARCH_PATHS = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FiboFinder/FiboFinder-Prefix.pch";
 				INFOPLIST_FILE = "FiboFinderTests/FiboFinderTests-Info.plist";
